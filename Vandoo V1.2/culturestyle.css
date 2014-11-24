@@ -56,8 +56,11 @@ a {
 
 #bannerimg {
 	position: fixed;
-	top: 7px;
+	background-color: #04243d;
+	top: 97%;
+	left: 0;
 	width: 100%;
+	height:20px;
 }
 
 #floater{
