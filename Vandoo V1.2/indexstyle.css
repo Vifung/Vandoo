@@ -4,7 +4,7 @@
 body {
 	background-color: #00253D;
 	width: 100%;
-	height: 940%;
+	height: 760px;
 }
 
 #logo {
@@ -21,7 +21,14 @@ body {
 }
 
 #Bgimg {
-	float: left;
-	width: 98%;	
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	z-index: -2;
+	overflow: scroll;
 }
+
 
