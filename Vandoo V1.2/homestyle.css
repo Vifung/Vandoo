@@ -7,11 +7,11 @@
    src: url(Helvetica);
 }
 
-h1, h2, h3, a {
+h1, h2, a {
    font-family: Philosopher;
 }
 
-span, div {
+span {
 	font-family: Helvetica;
 }
 
@@ -201,7 +201,7 @@ a{
 }
 
 #contacttext {
-	font-size: 77%;
+	font-size: 85%;
 	text-align: center;
 	float: left;
 	
