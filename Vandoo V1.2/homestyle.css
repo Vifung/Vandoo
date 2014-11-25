@@ -140,9 +140,9 @@ a{
 	border: 4px double rgba(252, 170, 251, .85);
 	border-radius:5px;
 	box-shadow: 0 0 15px rgba(252, 170, 251, .95);
-	width: 30%;
+	width: 90px;
 	min-width: 148px;
-	max-width: 250px;
+	max-width: 650px;
 	padding: 10px 10px 10px 10px;
 	margin: 10% 0px 0px 5%;
 }
@@ -152,7 +152,18 @@ a{
 	text-align: center;
 	padding: 1% 1% 1% 1%;
 }
-
+#imagebox{
+	display: inline-block;
+	float: left;
+	border: 4px double rgba(252, 170, 251, .85);
+	border-radius:5px;
+	box-shadow: 0 0 15px rgba(252, 170, 251, .95);
+	border-radius:5px;
+	width: 30px;
+	min-width: 230px;
+	padding: 10px 10px 10px 10px;
+	margin: 10% 5% 10% 4%;
+}
 #aboutimg {
 	display: inline-block;
 	width: 100%;
@@ -171,25 +182,23 @@ a{
 	border-radius:5px;
 	box-shadow: 0 0 15px rgba(252, 170, 251, .95);
 	border-radius:5px;
-	width: 30%;
+	
 	min-width: 230px;
 	padding: 10px 10px 10px 10px;
 	margin: 10% 5% 10% 4%;
 }
 	
 #map {
-	display: block;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-#map iframe {
-	margin-left: 25px;
-	margin-right: 35px;
+	margin-bottom: 10px;
 }
 
 #contacttext {
-	font-size: 77%;
 	text-align: center;
-	float: left;
-	
+	display: inline-block;
+	font-size: 77%;
+	float: right;
+	width: 45%;
+	margin-right: 10px;
+	margin-left: 10px;	
+	clear: none;
 }
