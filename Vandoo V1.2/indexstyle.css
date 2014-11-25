@@ -7,16 +7,29 @@ body {
 	height: 760px;
 }
 
+#logo:hover {
+	border: 4px double rgba(252, 170, 251, 10);
+	box-shadow: 0 0 55px rgba(252, 170, 251, .95);
+	background-color: rgba( 0, 0, 0, .5); 
+	border-radius: 20px;
+	-webkit-transition: 0.3s ease-out; 
+	-moz-transition: 0.3s ease-out;
+}
+
 #logo {
+	position: fixed;
+	display: block;
 	border: 4px double rgba(252, 170, 251, .85);
 	border-radius:5px;
 	box-shadow: 0 0 15px rgba(252, 170, 251, .95);  
 	background-color: rgba( 0, 37, 61, .9);	
-	position: absolute;
-	display: block;
-	top: 2.5%;
-	left: 32%;
-	width: 35%;
+	min-width: 310px;
+	max-width: 400px;
+	width: 30%;
+	left: 50%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: -160px;
 	z-index: 2;
 }
 
