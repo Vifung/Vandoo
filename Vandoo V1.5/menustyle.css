@@ -150,30 +150,32 @@ a:link {
 }
 
 #root_box {
-	position: absolute;
-	display: inline-block;
-	left: 3%;
-	top: 120px;
-	width: 92%;
-	bottom: 4.5%;
-	border: 1px solid rgba(86, 70, 156, 1);
-	border-radius:5px;
-	box-shadow: 0 0 35px rgba(67,76, 160, 1);
-	background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    display: inline-block;
+    left: 3%;
+    top: 120px;
+    width: 92%;
+    bottom: 4.5%;
+    border: 1px solid rgba(86, 70, 156, 1);
+    border-radius:5px;
+    box-shadow: 0 0 35px rgba(67,76, 160, 1);
+    background-color: rgba(0, 0, 0, 1);
     background-image: url("./images/menu/DSC_0006_full.jpg");
-    background-size: 100%;
+    background-size: 1600px;
+    background-position: top center;
     background-repeat: no-repeat;
-	margin-top: 6.5%;
-	z-index: 4;
-	overflow-y: scroll; 
-	overflow-x: hidden;
+    margin-top: 6.5%;
+    z-index: 4;
+    overflow-y: scroll; 
+    overflow-x: hidden;
 }
 
 #box1 {
     display: inline-block;
     background-color: rgba(151, 218, 235, 0.15);
     background-image: url("./images/menu/DSC_0070_1000x191.jpg");
-    background-size: 100%;
+    background-size: 1600px;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     border-bottom: 4px solid #ffffff; 

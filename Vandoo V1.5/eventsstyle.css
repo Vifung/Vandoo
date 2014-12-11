@@ -177,8 +177,9 @@ a:link {
 	border-radius:5px;
 	box-shadow: 0 0 35px rgba(67,76, 160, 1);
 	background-image: url("./images/events/DSC_0003(1)_events.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
+	background-size: 1600px;
+    background-position: top center;
+    background-repeat: no-repeat;
 	margin-top: 6.5%;
 	z-index: 4;
 	overflow-y: scroll; 
@@ -193,14 +194,15 @@ a:link {
  }
 
 #event_text{
-	display: block;
+    display: block;
     border: 4px double rgba(255, 255, 255, .85);
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(151, 218, 235, 0.2);
+    min-width: 160px;
     width: 30%;
     font-size: 2.1em;
     text-align: center;
     margin-top: 1.5%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
@@ -291,23 +293,58 @@ a:link {
     -moz-transition: 0.3s ease-out;
 }
 
-.entry {
+@media all and (min-width: 1000px) {
+    .entry {
     display: inline-block;
     float: left;
-    max-height: 165px;
-    width: 245px;
+    width: 18.8%;
     box-shadow: 0 0 3px rgba(252, 170, 251, .95);
     padding: 11pt .5pt 14.5pt .5pt;
-    margin: 5px 5px 5px 5px;
-    text-align: center;
-    font-size: 65%;
+    margin: 5px;
     background-color: #ffffff;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    .entry {
+    display: inline-block;
+    float: left;
+    width: 31.8%;
+    box-shadow: 0 0 3px rgba(252, 170, 251, .95);
+    padding: 11pt .5pt 14.5pt .5pt;
+    margin: 5px;
+    background-color: #ffffff;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .entry {
+    display: inline-block;
+    float: left;
+    width: 47%;
+    box-shadow: 0 0 3px rgba(252, 170, 251, .95);
+    padding: 11pt .5pt 14.5pt .5pt;
+    margin: 5px;
+    background-color: #ffffff;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .entry {
+    display: inline-block;
+    float: left;
+    width: 85%;
+    box-shadow: 0 0 3px rgba(252, 170, 251, .95);
+    padding: 11pt .5pt 14.5pt .5pt;
+    margin-left: 7%;
+    background-color: #ffffff;
+    }
 }
 
 #past_eventimg {
     display: inline-block;
     width: 95%;
-    height: 155px;
+    height: auto;
     margin-top: 20pt;
     margin: 2% 2% 2% 2%;
     border-radius: 5px;
@@ -318,7 +355,7 @@ a:link {
 .entry:hover {
     box-shadow: 0 0 10px rgba(224,172,207, 1);
     -webkit-transition: 0.3s ease-out;
- 
+ }
 
 #box4 {
     display: inline-block;
